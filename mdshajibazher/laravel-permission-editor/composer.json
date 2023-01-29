@@ -1,0 +1,26 @@
+{
+    "name": "mdshajibazher/laravel-permission-editor",
+    "description": "something",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mdshajibazher",
+            "email": "mdshajibazher@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "Mdshajibazher\\LaravelPermissionEditor\\": "src",
+    "autoload": {
+        "psr-4": {
+            "Mdshajibazher\\LaravelPermissionEditor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mdshajibazher\\LaravelPermissionEditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
